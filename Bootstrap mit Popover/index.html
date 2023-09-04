@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!----- Bootstrap CSS ------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!----- Bootstrap JS ------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+    <!----- Spalten Grid ------->
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: 60% 40%;
+      }
+      /***** auf 2 Zeilen gestreckt ******/
+      .box-1 {
+        grid-row-end: span 2;
+      }
+      /******* Bild nimmt 100% der Breite ein  *******/
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: black">
+    <!-------- Conteiner mit 3 Divs Start -------->
+    <div
+      class="container text-center mt-5"
+      style="border: groove 4px; padding: 90px"
+    >
+      <!------ Div für die Grid anpassung Start -------->
+      <div class="grid" style="height: 600px; grid-gap: 20px">
+        <!------ Div Box-1 mit Lorem Text und Popovers Start ------->
+        <div class="box-1 bg-dark text-light p-2" style="overflow: auto">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+          eaque reiciendis beatae dolorem accusamus magni, quia eius ipsa
+          inventore exercitationem, vitae soluta odit quas tempore modi iste
+          expedita?
+          <!------ Erstes Popover für das Wort Autem Start -------->
+          <a
+            href="#"
+            title="Autem"
+            data-bs-toggle="popover"
+            data-bs-placement="top"
+            data-bs-content="autem (Konjunktion) 
+            aber, dagegen, hingegen, andererseits, jedoch (entgegenstellend)
+            aber auch, weiter, ferner, wiederum, nämlich (anreihend)
+            nun aber (im Syllogismus: = atqui)"
+            ><b>Autem</b></a
+          >
+          <!------ Erstes Popover für das Wort Ende -------->
+          sapiente dolor minus cum ad maiores molestias laudantium aut nihil
+          repellat fugit soluta id optio expedita eum, pariatur error magni quas
+          sed ipsum, ea at? Beatae alias, ad vero voluptatibus totam fugit
+          fugiat ipsum odit reprehenderit nobis quisquam fuga impedit numquam,
+          dolore accusamus quaerat!
+          <!------ Zweites Popover für das Wort Omnis Start -------->
+          <a
+            href="#"
+            title="Omnis"
+            data-bs-toggle="popover"
+            data-bs-placement="bottom"
+            data-bs-content="omnis omne (Dritte Deklination (zweiendig))  
+            Omnis: Nom. Sg. mask., Gen. Sg. mask., Akk. Pl. mask., Nom. Sg. fem., Gen. Sg. fem., Akk. Pl. fem., Gen. Sg. neutr.
+            jeder, ganz
+            all, alles
+            alle (Pl. )
+            vollständig, in seiner Gesamtheit"
+            ><b>Omnis</b></a
+          >
+          <!------ Zweites Popover für das Wort Omnis Ende -------->
+          delectus, voluptatibus laboriosam quia perferendis debitis facilis
+          officia possimus consequuntur voluptatum error sint et eaque numquam
+          velit est ipsa amet! Architecto iusto sapiente blanditiis similique
+          ipsam nisi eius officia earum laborum minima repellendus totam
+          repudiandae ducimus soluta incidunt magnam numquam sunt, dolores vitae
+          voluptates sequi tempora. Voluptatum in sint nulla ullam temporibus
+          rerum modi deserunt incidunt delectus quas quis porro obcaecati,
+          corporis, dolorum praesentium perspiciatis id consequuntur doloribus.
+          Ab perferendis fugit saepe, doloribus soluta itaque, amet velit
+          reprehenderit temporibus est molestiae ut, repellendus commodi cumque
+          unde ullam placeat adipisci vitae? Pariatur nulla, distinctio quia at
+          eveniet est totam rem a tempore atque consequuntur corporis quisquam
+          maiores veritatis aliquam ut, repudiandae, qui numquam cupiditate
+          suscipit cum quibusdam obcaecati. Error fugit, doloremque, asperiores
+          maxime sit deleniti minus consequatur vero expedita, dolorum ipsum.
+          Soluta eaque quos maxime voluptatem natus laborum dicta ad nostrum
+          consequatur. Laborum sed reiciendis ipsa animi corrupti unde, omnis
+          quod sequi in consectetur.
+          <!------ Drittes Popover für das Wort Commodi Start -------->
+          <a
+            href="#"
+            title="Commodi"
+            data-bs-toggle="popover"
+            data-bs-placement="left"
+            data-bs-content="commodum -ī, n (o-Deklination neutr.)  
+            Commodi: Gen. Sg.
+            Bequemlichkeit, Annehmlichkeit, das Nützliche, das Dienliche
+            günstige Gelegenheit, günstiger Zeitpunkt
+            das Vortreffliche, Vorteil, Nutzen, Interesse
+            Geldgeschenk, Abfindung
+            Glück, Wohl (Pl.)
+            Vergünstigungen, Vorrechte, Leihgaben (Pl.)"
+            ><b>Commodi</b></a
+          >
+          <!------ Drittes Popover für das Wort Commodi Ende -------->
+          odit laudantium voluptatibus doloribus cupiditate aliquid ipsum qui
+          est? Iusto quas commodi sint unde adipisci soluta tempore itaque nemo,
+          praesentium id quis aliquam voluptas maiores eaque obcaecati
+          blanditiis quae doloremque eligendi doloribus nam. Dolorum distinctio
+          officia magnam quam aperiam. Quasi soluta, blanditiis expedita quaerat
+          voluptatibus fugiat accusantium odio dicta sequi exercitationem, harum
+          facilis ducimus rerum. Iure assumenda non ipsa aperiam et? Officiis
+          enim perferendis eos corrupti cupiditate laboriosam incidunt cum esse
+          voluptate, nam facere eligendi autem tempora quod natus ab rem libero
+          id modi deserunt optio. Fuga, est voluptate nobis rerum odit quam
+          veritatis numquam aliquid totam doloribus nihil dolores recusandae
+          enim id molestias illo omnis ducimus aliquam.
+          <!------ Viertes Popover für das Wort Expedita Start -------->
+          <a
+            href="#"
+            title="Expedita"
+            data-bs-toggle="popover"
+            data-bs-placement="right"
+            data-bs-content="expedīre, expediō, expedīvī, expedītum (i-Konjugation)  
+            Expedita: PPP (Nom. Sg. fem.), PPP (Abl. Sg. fem.), PPP (Nom. Pl. neutr.), PPP (Akk. Pl. neutr.)
+            losmachen, bewältigen, hervorholen
+            frei machen, bereitmachen, befreien, überwinden
+            freigeben, freilassen
+            entwickeln, darlegen
+            abwickeln, erledigen, besorgen, zustande bringen
+            es nützt (uunpers.: expedit)
+            erläutern, darlegen, mitteilen, berichten, auseinandersetzen
+            sich frei machen, durchkommen (Pass.)"
+            ><b>Expedita</b></a
+          >
+          <!------ Viertes Popover für das Wort Expedita Ende -------->
+          aliquid fugit totam nemo quibusdam natus sequi, eveniet illum fugiat
+          magnam praesentium, dolores exercitationem distinctio consectetur
+          commodi corporis architecto. Natus corporis tenetur unde fugiat eos
+          temporibus tempora consectetur eius non sit quia commodi fugit, odio
+          provident, possimus ipsam harum! Labore consequuntur amet, dolores
+          ratione voluptatum enim similique doloribus sed velit impedit laborum
+          earum expedita eos quidem repellat veniam quam, id deleniti magni.
+          Earum similique repellendus sequi quaerat, excepturi reprehenderit
+          quia minus nulla aliquam debitis, magni enim in dicta vero eaque,
+          eligendi repudiandae saepe? Unde quo iusto cumque similique, dolorem
+          consequuntur facilis officiis consequatur voluptatum esse, ad in
+          voluptatibus autem. Tenetur nulla repellat minus? Sapiente, odit vitae
+          molestiae perferendis sit perspiciatis consectetur harum omnis ab
+          obcaecati qui minima facere eos laboriosam dolor labore quisquam est
+          consequuntur illo saepe modi hic mollitia tempora. Iure voluptatem
+          facere soluta ratione totam ex porro ad voluptas quaerat?
+          <!------ Fünftes Popover für das Eveniet Expedita Start -------->
+          <a
+            href="#"
+            title="Eveniet"
+            data-bs-toggle="popover"
+            data-bs-placement="top"
+            data-bs-content="ēvenīre, ēveniō, ēvēnī, ēventum (i-Konjugation)  
+            eveniet: 3. Pers. Sg. Fut. I Ind. Akt.
+            eintreten, zustande kommen, sich ereignen (oft unpers.)
+            geschehen, passieren, ablaufen
+            in Erfüllung gehen
+            widerfahren"
+            ><b>Eveniet</b></a
+          >
+          <!------ Fünftes Popover für das Eveniet Expedita Ende -------->
+          accusamus ratione quia harum laborum, quae molestiae non officia
+          voluptatem culpa nesciunt ex eum animi nam, sed, natus nobis aliquid.
+        </div>
+        <!------ Div Box-1 mit Lorem Text und Popovers Ende ------->
+        <!------ Div Box-2 mit Einem Bild Start ------->
+        <div class="box-2">
+          <img src="./bilder/astronaut.jpg" alt="" />
+        </div>
+        <!------ Div Box-2 mit Einem Bild Start ------->
+        <!------ Div Box-3 mit Einem Bild und Popover Button Start ------->
+        <div class="cbox-3">
+          <!------ Popover Button Start ------->
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-container="body"
+            data-bs-toggle="popover"
+            data-bs-placement="top"
+            data-bs-content="Man in Space"
+          >
+            <!------ Bild Start ------->
+            <img src="./bilder/space.jpg" alt="" />
+            <!------ Bild Ende ------->
+          </button>
+          <!------ Popover Button Ende ------->
+        </div>
+        <!------ Div Box-3 mit Einem Bild und Popover Button Ende ------->
+      </div>
+      <!------ Div für die Grid anpassung Ende -------->
+
+      <!------- JavaScript für die Popover Start -------->
+      <script>
+        var popoverTriggerList = [].slice.call(
+          document.querySelectorAll('[data-bs-toggle="popover"]')
+        );
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+          return new bootstrap.Popover(popoverTriggerEl);
+        });
+      </script>
+      <!------- JavaScript für die Popover Ende -------->
+    </div>
+    <!-------- Conteiner mit 3 Divs Ende -------->
+  </body>
+</html>
